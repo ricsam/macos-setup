@@ -29,3 +29,11 @@ Host github.com
   HostName github.com
   Port 22
 ```
+
+Verify with `ssh -T github.com`
+
+## Shell
+Install oh-my-zsh. Taken from [ohmyz.sh](https://ohmyz.sh/#install)
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
