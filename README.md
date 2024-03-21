@@ -4,11 +4,6 @@
 * iterm
 * arc
 
-## Vscode
-1. Install vscode
-2. Login to setup settings sync
-3. Install code to path
-
 ## Settings
 * Keyboard - key repeat + delay until repeat -> fast / short
 * Keyboard - key repeats: `defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false`
@@ -68,3 +63,9 @@ bindkey '^m' reset-prompt-and-accept-line
 PROMPT='${ret_status}%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}%D{%H:%M:%S} % %{$reset_color%}'
 ```
 
+
+## Vscode
+1. Install vscode
+2. Login to setup settings sync
+3. Install code to path
+4. Select default terminal profile - zsh
