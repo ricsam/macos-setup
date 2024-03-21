@@ -1,5 +1,12 @@
 # macos-setup
 
+## Git
+```bash
+git config --global user.email 'ricsam@users.noreply.github.com' 
+git config --global user.name 'Richie'
+```
+
+
 ## Programs
 * iterm
 * arc
