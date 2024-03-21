@@ -32,8 +32,10 @@ Docker engine settings
 * Keyboard - key repeat + delay until repeat -> fast / short
 * Keyboard - key repeats: `defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false`
 * Trackpad - stracking speed -> fast
+* Trackpad - Tap to click -> Yes
 * Trackpad - secondary click -> click with two fingers
 * Trackpad - more gestures -> swipe between pages -> swipe with three fingers
+* Input sources, remove extra input source, us only keyboard
 
 ## Github
 ```bash
@@ -93,3 +95,8 @@ PROMPT='${ret_status}%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(g
 2. Login to setup settings sync
 3. Install code to path
 4. Select default terminal profile - zsh
+
+## node
+* Install [nvm](https://github.com/nvm-sh/nvm)
+* `nvm install v18 && nvm use v18`
+* Install bun
