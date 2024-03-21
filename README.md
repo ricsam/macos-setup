@@ -46,4 +46,25 @@ Install zsh-autosuggestions. Takend from [github.com/zsh-users/zsh-autosuggestio
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-add `zsh-autosuggestions` to the plugins in `vim ~/.zshrc`
+add `zsh-autosuggestions` to the plugins in `vim ~/.zshrc` like
+```bash
+plugins=(
+  git
+  zsh-autosuggestions
+)
+```
+
+Add time to the prompt. Add the following to the end of the `~/.zshrc` file:
+```bash
+reset-prompt-and-accept-line() {
+    zle reset-prompt
+    zle accept-line
+}
+
+zle -N reset-prompt-and-accept-line
+
+bindkey '^m' reset-prompt-and-accept-line
+
+PROMPT='${ret_status}%{$fg_bold[green]%}%p %{$fg[cyan]%}%c %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}%D{%H:%M:%S} % %{$reset_color%}'
+```
+
