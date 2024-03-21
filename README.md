@@ -18,7 +18,8 @@ ssh-keygen -t rsa -b 4096 -f ~/.ssh/github
 cat ~/.ssh/github.pub | pbcopy
 ```
 
-ssh config
+`vim ~/.ssh/config` and add
+
 ```
 Host github.com
   AddKeysToAgent yes
