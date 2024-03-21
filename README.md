@@ -6,6 +6,23 @@ git config --global user.email 'ricsam@users.noreply.github.com'
 git config --global user.name 'Richie'
 ```
 
+## Docker
+Docker engine settings
+```json
+{
+  "builder": {
+    "gc": {
+      "defaultKeepStorage": "20GB",
+      "enabled": true
+    }
+  },
+  "dns": [
+    "8.8.8.8"
+  ],
+  "experimental": false
+}
+```
+
 
 ## Programs
 * iterm
