@@ -2,8 +2,12 @@
 
 ## Programs
 * iterm
-* vscode
 * arc
+
+## Vscode
+1. Install vscode
+2. Login to setup settings sync
+3. Install code to path
 
 ## Settings
 * Keyboard - key repeat + delay until repeat -> fast / short
@@ -37,3 +41,9 @@ Install oh-my-zsh. Taken from [ohmyz.sh](https://ohmyz.sh/#install)
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+Install zsh-autosuggestions. Takend from [github.com/zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+add `zsh-autosuggestions` to the plugins in `vim ~/.zshrc`
