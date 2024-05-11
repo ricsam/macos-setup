@@ -1,5 +1,10 @@
 # macos-setup
 
+Install Xcode Command Line Tools
+```bash
+xcode-select --install
+```
+
 
 ## Settings
 * Keyboard - key repeat + delay until repeat -> fast / short
