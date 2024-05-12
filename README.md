@@ -18,6 +18,8 @@ xcode-select --install
 ## Programs
 * iterm
 * arc
+* [brew](https://brew.sh/)
+* install watchman (on intel) `brew install watchman`
 
 
 ## Shell
