@@ -20,6 +20,7 @@ xcode-select --install
 * arc
 * [brew](https://brew.sh/)
 * install watchman (on intel) `brew install watchman`
+* install watch `brew install watch`
 
 
 ## Shell
