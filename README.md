@@ -116,3 +116,4 @@ Verify with `ssh -T github.com`
 * Install [nvm](https://github.com/nvm-sh/nvm)
 * `nvm install v18 && nvm use v18`
 * Install bun
+* Install [pnpm](https://pnpm.io/installation)
