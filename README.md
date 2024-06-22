@@ -21,7 +21,7 @@ xcode-select --install
 * [brew](https://brew.sh/)
 * install watchman (on intel) `brew install watchman`
 * install watch `brew install watch`
-
+* install [mkcert](https://github.com/FiloSottile/mkcert?tab=readme-ov-file#macos)
 
 ## Shell
 Install oh-my-zsh. Taken from [ohmyz.sh](https://ohmyz.sh/#install)
